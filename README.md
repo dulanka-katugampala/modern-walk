@@ -40,12 +40,14 @@ src/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone [repository-url]
    cd modern-walk
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -53,6 +55,7 @@ src/
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or
@@ -60,10 +63,16 @@ src/
    ```
 
 4. Build for production:
+
    ```bash
    npm run build
    # or
    yarn build
+   ```
+
+5. ENV file:
+   ```VITE_API_URL="https://fakestoreapi.com"
+      VITE_API_DEFAULT_TIME_OUT=600000
    ```
 
 ## Development
@@ -77,24 +86,29 @@ src/
 
 1. **TypeScript**: The project uses TypeScript for better type safety and developer experience.
 
-2. **Component Architecture**: 
+2. **Component Architecture**:
+
    - Components are organized in a modular structure
    - Separation of concerns between pages and reusable components
    - API calls are centralized in the api directory
 
 3. **Styling**:
+
    - TailwindCSS is used for utility-first styling
    - Responsive design is implemented using Tailwind's responsive classes
 
 4. **State Management**:
+
    - React Query is used for server state management
    - Local state is managed using React's built-in state management
 
 5. **Error Handling**:
+
    - React Error Boundary is implemented for graceful error handling
    - API errors are handled consistently across the application
 
 6. **Routing**:
+
    - React Router is used for client-side routing
    - Route configuration is centralized in the router directory
 
