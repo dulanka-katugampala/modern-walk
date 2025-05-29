@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary-blue: #0E42FD;
+  --color-primary-red: #ff5e84;
+  --color-primary-green: #2bd9af;
+  --color-primary-grey: #f5f5f5;
+  --color-primary-black: #0E0E0E;
+  --color-primary-border-grey: #d9d9d9;
+
+  /* Font Sizes */
+  --text-main-header: 2.25rem;
+  --text-section-title: 1.875rem;
+  --text-product-title: 1.15rem;
+  --text-product-price: 1.25rem;
+  --text-product-description: 1rem;
+
+  /* Border Radius */
+  --radius-5xl: 35px;
+
+  /* Box Shadow */
+  --shadow-primary: 0px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  --shadow-primary-card: 10px 15px 20px 0px rgba(0, 0, 0, 0.15);
+
+  /* Fonts */
+  --font-primary: "Roboto", 'sans-serif';
+}
+
+/* skeleton styles */
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
