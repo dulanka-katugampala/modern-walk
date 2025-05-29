@@ -71,7 +71,8 @@ src/
    ```
 
 5. ENV file:
-   ```VITE_API_URL="https://fakestoreapi.com"
+   ```
+      VITE_API_URL="https://fakestoreapi.com"
       VITE_API_DEFAULT_TIME_OUT=600000
    ```
 
