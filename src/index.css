@@ -20,19 +20,24 @@
   /* Font Sizes */
   --text-main-header: 2.25rem;
   --text-section-title: 1.875rem;
-  --text-product-title: 1.15rem;
-  --text-product-price: 1.25rem;
+  --text-product-title: 1.125rem;
+  --text-product-price: 1.5rem;
   --text-product-description: 1rem;
+  --text-category-label: 2.8rem;
 
   /* Border Radius */
-  --radius-5xl: 35px;
+  --radius-primary: 25px;
 
   /* Box Shadow */
-  --shadow-primary: 0px 5px 8px 0px rgba(0, 0, 0, 0.25);
-  --shadow-primary-card: 10px 15px 20px 0px rgba(0, 0, 0, 0.15);
+  --shadow-primary: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+  --shadow-primary-card: 8px 8px 6px -2px rgba(0, 0, 0, 0.15);
 
   /* Fonts */
   --font-primary: "Roboto", 'sans-serif';
+
+  /* Sizing */
+  --spacing-max-screen: 1536px;
+  --spacing-container: 93%;
 }
 
 /* skeleton styles */

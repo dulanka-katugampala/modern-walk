@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
       {/* Flash Sale */}
-      <section className="container mx-auto px-4 mb-20">
-        <h2 className="text-section-title font-bold text-primary-black mb-8 capitalize">
+      <section className="mx-auto px-4 mb-20">
+        <h2 className="text-section-title font-bold text-primary-black mb-10 capitalize">
           Flash Sale
         </h2>
         <Suspense fallback={<ProductGridLoading />}>
@@ -19,8 +19,8 @@ const Home = () => {
       </section>
 
       {/* Categories */}
-      <section className="container mx-auto px-4">
-        <h2 className="text-section-title font-bold text-primary-black mb-8 capitalize">
+      <section className="mx-auto px-4">
+        <h2 className="text-section-title font-bold text-primary-black mb-10 capitalize">
           Categories
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

@@ -5,8 +5,8 @@ import { ProductCategories } from "../Enums";
 
 const MensClothingPage = () => {
   return (
-    <section className="container mx-auto px-4">
-      <h2 className="text-section-title font-bold text-primary-black mb-8 capitalize">
+    <section className="mx-auto px-4">
+      <h2 className="text-section-title font-bold text-primary-black mb-10 capitalize">
         {ProductCategories.MensClothing}
       </h2>
       <Suspense fallback={<ProductGridLoading />}>

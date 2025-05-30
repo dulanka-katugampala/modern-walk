@@ -26,9 +26,9 @@ const CategoryCard = ({ link, title }: CategoryCardProps) => {
       <article>
         <Link to={link}>
           <div
-            className={`${cardStyles} rounded-5xl flex items-center justify-center aspect-2/1 transform hover:scale-102 transition-all duration-300 px-4 shadow-primary-card`}
+            className={`${cardStyles} rounded-primary flex items-center justify-center aspect-2/1 transform hover:scale-102 transition-all duration-300 px-4 shadow-primary-card`}
           >
-            <h3 className="text-main-header font-bold text-center text-white capitalize">{title}</h3>
+            <h3 className="text-category-label font-bold text-center text-white capitalize">{title}</h3>
           </div>
         </Link>
       </article>
